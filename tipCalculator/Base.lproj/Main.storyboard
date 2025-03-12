@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kua-EG-ibX">
-                                <rect key="frame" x="37" y="244" width="57" height="35"/>
+                                <rect key="frame" x="36.333333333333343" y="244" width="57" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="15%"/>
                                 <connections>
@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x4-in-oBL">
-                                <rect key="frame" x="167.66666666666666" y="244" width="58" height="35"/>
+                                <rect key="frame" x="168" y="244" width="57.333333333333343" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="18%"/>
                                 <connections>
@@ -41,14 +41,14 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Bill Amount" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8A3-Zd-xDw">
-                                <rect key="frame" x="126.66666666666667" y="158" width="139.66666666666663" height="34"/>
+                                <rect key="frame" x="126.66666666666669" y="158" width="140" height="34"/>
                                 <color key="backgroundColor" red="0.96742780122560323" green="0.96742780122560323" blue="0.96742780122560323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHO-cB-XtH">
-                                <rect key="frame" x="147" y="401" width="98" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHO-cB-XtH">
+                                <rect key="frame" x="152.66666666666666" y="360" width="88" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -57,23 +57,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wlD-cg-ma5" secondAttribute="bottom" constant="540" id="0fj-Xa-tRP"/>
-                            <constraint firstItem="wlD-cg-ma5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0x4-in-oBL" secondAttribute="trailing" id="1QG-pP-QJn"/>
-                            <constraint firstItem="8A3-Zd-xDw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="99" id="3aB-eJ-4Pe"/>
-                            <constraint firstItem="8A3-Zd-xDw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126.66666666666669" id="76h-4F-sk2"/>
-                            <constraint firstItem="YHO-cB-XtH" firstAttribute="centerX" secondItem="0x4-in-oBL" secondAttribute="centerX" id="EtY-C3-PPY"/>
-                            <constraint firstItem="YHO-cB-XtH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152.66666666666669" id="GjK-GZ-4rR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kua-EG-ibX" secondAttribute="bottom" constant="539" id="O87-nd-NAQ"/>
-                            <constraint firstItem="YHO-cB-XtH" firstAttribute="top" secondItem="0x4-in-oBL" secondAttribute="bottom" constant="122" id="Qlv-Im-ygH"/>
-                            <constraint firstItem="0x4-in-oBL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kua-EG-ibX" secondAttribute="trailing" id="RH2-jM-pQe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wlD-cg-ma5" secondAttribute="trailing" constant="43" id="TPh-dk-Xco"/>
-                            <constraint firstItem="Kua-EG-ibX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="185" id="UEp-ye-cCl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YHO-cB-XtH" secondAttribute="bottom" constant="396" id="aZR-eO-pXr"/>
-                            <constraint firstItem="Kua-EG-ibX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="o1x-Sc-vb6"/>
-                            <constraint firstItem="Kua-EG-ibX" firstAttribute="baseline" secondItem="0x4-in-oBL" secondAttribute="baseline" id="rIc-mo-s2o"/>
-                            <constraint firstItem="YHO-cB-XtH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sUV-U1-LVg"/>
-                            <constraint firstItem="YHO-cB-XtH" firstAttribute="centerX" secondItem="8A3-Zd-xDw" secondAttribute="centerX" id="sy9-i7-D4o"/>
-                            <constraint firstItem="wlD-cg-ma5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="184" id="vym-yN-oq2"/>
+                            <constraint firstItem="YHO-cB-XtH" firstAttribute="top" secondItem="0x4-in-oBL" secondAttribute="bottom" constant="81" id="D88-ez-xCk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wlD-cg-ma5" secondAttribute="trailing" constant="43.000000000000057" id="HYU-S5-JcR"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="244" id="Ij2-tb-iOo"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="centerX" secondItem="8A3-Zd-xDw" secondAttribute="centerX" id="JVg-Mp-ImP"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="top" secondItem="Kua-EG-ibX" secondAttribute="top" id="W1y-ei-6tJ"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cc2-XE-vRB"/>
+                            <constraint firstItem="wlD-cg-ma5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="184" id="eLh-8N-wms"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="centerX" secondItem="YHO-cB-XtH" secondAttribute="centerX" id="kwp-Vd-mJc"/>
+                            <constraint firstItem="wlD-cg-ma5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0x4-in-oBL" secondAttribute="trailing" id="nUk-XG-Gll"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="top" secondItem="8A3-Zd-xDw" secondAttribute="bottom" constant="52" id="qgR-YJ-AiV"/>
+                            <constraint firstItem="0x4-in-oBL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kua-EG-ibX" secondAttribute="trailing" constant="8" symbolic="YES" id="v9W-mQ-ovc"/>
+                            <constraint firstItem="Kua-EG-ibX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36.333333333333343" id="wsb-2y-jwS"/>
                         </constraints>
                     </view>
                     <connections>

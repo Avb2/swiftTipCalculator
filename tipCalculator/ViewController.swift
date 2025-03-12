@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         
         let total = (input ?? 0) * 0.15 + (input ?? 0)
         
-        outputLabel.text = "Subtotal: $\(input ?? 0)\nTotal: $\(total)"
+        outputLabel.text = "Subtotal: $\(String(format: "%.2f", input ?? "0.00"))    Total: $\(String(format: "%.2f", total))"
+
+
     }
     
     @IBAction func eighteenPBtn(_ sender: UIButton) {
@@ -24,7 +26,7 @@ class ViewController: UIViewController {
         
         let total = (input ?? 0) * 0.18 + (input ?? 0)
         
-        outputLabel.text = "Subtotal: $\(input ?? 0)\nTotal: $\(total)"
+        outputLabel.text = "Subtotal: $\(String(format: "%.2f", input ?? "0.00"))    Total: $\(String(format: "%.2f", total))"
     }
     
     @IBAction func twentyPBtn(_ sender: UIButton) {
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
         
         let total = (input ?? 0) * 0.2 + (input ?? 0)
         
-        outputLabel.text = "Subtotal: $\(input ?? 0)\nTotal: $\(total)"
+        outputLabel.text = "Subtotal: $\(String(format: "%.2f", input ?? "0.00"))    Total: $\(String(format: "%.2f", total))"
     }
     
     override func viewDidLoad() {
@@ -41,6 +43,9 @@ class ViewController: UIViewController {
         let tap: UIGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         
         view.addGestureRecognizer(tap)
+        
+        inputTxt.clearsOnBeginEditing = true
+        
     }
     
     
@@ -48,8 +53,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+
     
-
-
 }
 
