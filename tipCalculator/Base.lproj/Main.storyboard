@@ -20,16 +20,25 @@
                                 <rect key="frame" x="37" y="244" width="57" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="15%"/>
+                                <connections>
+                                    <action selector="fifteenPBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Byd-1K-QVv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x4-in-oBL">
                                 <rect key="frame" x="167.66666666666666" y="244" width="58" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="18%"/>
+                                <connections>
+                                    <action selector="eighteenPBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4pB-er-gxN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-cg-ma5">
                                 <rect key="frame" x="290.33333333333331" y="243" width="59.666666666666686" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="20%"/>
+                                <connections>
+                                    <action selector="twentyPBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WA0-m0-o7h"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Bill Amount" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8A3-Zd-xDw">
                                 <rect key="frame" x="126.66666666666667" y="158" width="139.66666666666663" height="34"/>
@@ -68,10 +77,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="eighteenPercentBtn" destination="0x4-in-oBL" id="zbC-bg-JCe"/>
-                        <outlet property="fifteenPercentBtn" destination="Kua-EG-ibX" id="GkN-1W-bBe"/>
                         <outlet property="inputTxt" destination="8A3-Zd-xDw" id="Qjl-wO-yrl"/>
-                        <outlet property="twentyPercentBtn" destination="wlD-cg-ma5" id="Fm5-aF-7bh"/>
+                        <outlet property="outputLabel" destination="YHO-cB-XtH" id="ggX-Ne-WbP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
